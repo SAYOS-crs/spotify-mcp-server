@@ -1,4 +1,4 @@
-# sayos-spotify-mcp 🎵
+# spotify-mcp-server 🎵
 
 A **full-featured Spotify MCP server** that lets any MCP-compatible AI (Antigravity, Claude, Cursor, etc.) control your Spotify — search tracks, manage playback, create playlists, browse your library, and more.
 
