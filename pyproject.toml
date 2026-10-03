@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sayos-spotify-mcp"
+version = "1.0.0"
+description = "A full-featured Spotify MCP server — control playback, search, manage playlists and more from any AI."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "SAYOS-crs", email = "eslam.elawdy.cr.004@gmail.com" }]
+keywords = ["spotify", "mcp", "model-context-protocol", "ai", "music"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.9.0,<2.0.0",
+    "spotipy>=2.24.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/SAYOS-crs/sayos-spotify-mcp"
+Repository = "https://github.com/SAYOS-crs/sayos-spotify-mcp"
+Issues = "https://github.com/SAYOS-crs/sayos-spotify-mcp/issues"
+
+[project.scripts]
+sayos-spotify-mcp = "sayos_spotify_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
