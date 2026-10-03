@@ -33,7 +33,7 @@ pip install sayos-spotify-mcp
 
 1. Go to [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard)
 2. Click **Create app**
-3. Set Redirect URI to: `http://localhost:8888/callback`
+3. Set Redirect URI to: `http://127.0.0.1:8888/callback`
 4. Copy your **Client ID** and **Client Secret**
 
 ### 3. Add to your MCP config (`~/.gemini/config/mcp_config.json` for Antigravity)
