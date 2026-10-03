@@ -46,7 +46,7 @@ pip install sayos-spotify-mcp
       "env": {
         "SPOTIPY_CLIENT_ID": "YOUR_CLIENT_ID",
         "SPOTIPY_CLIENT_SECRET": "YOUR_CLIENT_SECRET",
-        "SPOTIPY_REDIRECT_URI": "http://localhost:8888/callback"
+        "SPOTIPY_REDIRECT_URI": "http://127.0.0.1:8888/callback"
       }
     }
   }
